@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+		<title>Adam Kimball</title>
+		<link type="text/css" rel="stylesheet" href="stylin.css">
+		<link href="css.css" rel="stylesheet" type="text/css">
+
+	</head>
+
+	<body>
+		<div class="mahbodeh">
+		<img class="emu" float="left" src="baha.png" align="left" height="120" width="120">	
+		<h1 float="left" align="left">Adam Kimball | MP351[x2] & 352[x1] </h1>
+		<h3 float="left"><a href="https://github.com/ElBaha">Github</a>
+		</h3><h3 float="left">kimbalac@clarkson.edu</h3>
+		<br>
+		<hr style="clear:both;">
+
+		<h2>Progress this semester:</h2>
+
+		<br/><br/>
+
+		<strong>Lightning Talks:</strong>
+		<ul>
+			<li>arandr/xrandr display utilities</li>
+			<li>The Daily Programmer subreddit</li>
+			<li>ADUni: A free digital university</li>
+			<li>Flash Player, and why it's recommended to avoid it on non-Windows platforms</li>
+			<li>Fresh Player: Pepperflash for Firefox</li>
+			<li>Elevator Saga: Learn JavaScript the fun way!</li>
+			<li>File Manager talk (Presentation of a whole bunch of alternative/minimal file managers)</li>
+			<li>Telnet Antics -- various webpages and responses via telnet and HTTP 1.1</li>
+			<li>Visual Studio Code: An alternative code editor with gdb integration and extension support!</li>
+			<li>Microsoft Open Source involvement, and Linux distribution</li>
+			<li>...and more that got lost along the way!</li>
+		</ul>
+
+		<strong>Server Room:</strong>
+		<ul>
+			<li>Maintainer of Comm, which currently runs an XMPP and Mumble server</li>
+			<li>Various bits of cleanup/organization, particularly involving the file cabinets</li>
+			<li>Creator/maintainer of the core backup server</li>	
+			<li>Assistance with cable cleanup and routing</li>
+			<li>General troubleshooting throughout the semester and tracking down/notifying the right people</li>
+			<li>Question box/guide for some of our newer members who needed help setting things up in the server room</li>
+		</ul>
+
+		<strong>Backup System:</strong>
+		<ul>
+			<li>Elephant: Our cobbled-together but entirely viable backup server built from scraps:</li>
+				<ul>
+				<li>A spare i7 and power supply from our previous generation of lab machines</li>
+				<li>A spare motherboard from a lab machine two generations back</li>
+				<li>One 120GB HDD pulled from an old lab machine</li>
+				<li>Five 3TB HDD's pilfered from our generously donated rack-mount NAS devices</li>
+				<li>A fan from the CAMP technology disposal area</li>
+				<li>...all mounted in one of the oldest 3U server cases we have, whose LEDs don't work!</li>
+				<li>Despite all of this, it's actually a pretty robust system. It should go for a while!</li>
+				</ul>
+			<li>Set up the 120gb drive with a basic debian install and setup user accounts</li>
+			<li>Helped set up DNS resolution to elephant@cslabs</li>
+			<li>Configured the 3TB drives to work in RAID6 via mdadm</li>
+			<li>Created a backup user with read/write to only the backup folder at the root of the RAID array</li>
+			<li>Generated ssh keys for authentication of the backup user, so it doesn't need to be tied in to talos</li>
+			<li>Worked out rsync commands to pull data over ssh with preserved disk sparsity and resume on fail</li>
+			<li>Set up a basic cron job on Metapod to backup all user directory files</li> 
+			<li>Created resume and suspend scripts for the machines on our VM hosts</li>
+			<li>Modified the above to walk through each VM, suspend it, back it up, and resume it</li>
+			<li>Hooked the above into a cron job</li>
+			<li>Still trying to track down Graham to get Talos backups encrypted/stored</li>
+			<li>Documentation of each step in the process</li>
+		</ul>
+
+
+		<strong>Workshops:</strong>
+		<ul>
+			<li>Contributor to CDC [Lecture and active participant]</li>
+			<li>********Running Weekly Programming Challenge workshops</li>
+			<li>Preparing State Of the Industry workshop for graphics cards</li>
+			<li>Participating in several workshops/projects:
+				<ul>
+				<li>Robigalia: Rust for SeL4 [Attendance, minix threads, website design]</li>
+				<li>Draft review/workshop attendance for ziltoid (run by Corey Richardson)</li>
+				<li>Vim Usability Workshop attendance (run by Benjamin Lannon)</li>
+				<li>7 Hour Roguelike competition (run by Corey Richardson)</li>
+				<li>ACM Programming Competition Participant (And I didn't come in last!)</li>
+				</ul>
+			</li>
+		</ul>
+
+		<strong>Misc:</strong>
+		<ul>
+			<li>Re-built several of the current lab machines, as well as the entire VR Lab</li>
+			<li>Writing Rust-Multiprime distributed prime generator for beowulf clusters</li>
+			<li>Have helped several freshmen to lean CS141 concepts and application</li>
+			<li>General student assistance!</li>
+			<li>Open House: [Attendance, talk]</li>
+			<li>Lots of general assistance w/ lab machines and setup/cleaning</li>
+			<li>Helped analyze, organize, document, and remove old machines where necessary</li>
+			<li>Handled COSI office supplies -- order placement for ink, staples, etc</li>
+			<li>Handled or assisted with catering for several COSI events</li>
+			<li>Continual clean and care of the labs</li>
+			<li>Handled the COSI Cubbies</li>
+			<li>Removal/distribution of old computers and GPUs</li>
+		</ul>
+		<br/><br/>
+
+		Also, thank-you to Benjamin Lannon, who graciously allowed me to pilfer the css for this
+		webpage whilst I work on creating something more original for the final iteration.
+
+		</div>
+		</div>
+
+
+		<br><br><br>
+
+		</div>
+
+</body></html>
